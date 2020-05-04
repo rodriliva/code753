@@ -1,0 +1,50 @@
+body {
+    margin:0;
+    background-color: black;
+    color: white;
+}
+
+#Container {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    text-align: center;
+    font-family: roboto;
+}
+
+.Container1Item {
+    flex-basis: 300px;
+    padding: 15px;
+    margin: 0px 100px;
+
+}
+
+p {
+    text-align: justify;
+    font-size: 1.2em;
+    text-indent: 50px;
+}
+
+#Container-Conteudo{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    font-weight: bold;
+    font-size: 4em;
+    font-family: oswald;
+    font-style: italic;
+    margin-bottom: 0px;
+}
+
+h2 {
+    font-weight: bold;
+    font-size: 3em;
+    color: rgb(143, 1, 1);
+    margin-bottom: 0px;
+    letter-spacing: 10px;
+}
